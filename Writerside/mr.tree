@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="mr"
+                 name="Meta-ROS"
+                 start-page="meta_ros.md">
+
+    <toc-element topic="meta_ros.md"/>
+    <toc-element topic="dependence.md">
+        <toc-element topic="ros_installation.md"/>
+    </toc-element>
+    <toc-element topic="development.md">
+        <toc-element topic="wsl.md"/>
+    </toc-element>
+    <toc-element topic="layers.md">
+        <toc-element topic="execution.md">
+            <toc-element topic="motor_controller.md"/>
+        </toc-element>
+        <toc-element topic="perception.md"/>
+    </toc-element>
+</instance-profile>
