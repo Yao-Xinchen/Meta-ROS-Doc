@@ -1,6 +1,6 @@
 # About Meta-ROS
 
-### Basic Info
+## Basic Info
 
 Created by Yao Xinchen, 2023/7/13
 
@@ -10,15 +10,15 @@ Tested on Nvidia Orin Nano, Ubuntu 20.04
 
 Used for RoboMaster Team Meta to control robots
 
-### Dependencies
+## Dependencies
 
 ROS2 foxy
 
-### Structure
+## Structure
 
 4 main layers: Perception -> Decision -> Decomposition -> Execution
 
-### To Compile
+## To Compile
 
 Build with ```colcon build --cmake-args '-DCMAKE_EXPORT_COMPILE_COMMANDS=On'``` in the workspace
 

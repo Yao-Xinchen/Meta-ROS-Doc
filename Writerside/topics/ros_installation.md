@@ -1,4 +1,4 @@
-# ROS-Installation
+# ROS Installation
 
 Here is an example of installing with the Debian packages.
 
