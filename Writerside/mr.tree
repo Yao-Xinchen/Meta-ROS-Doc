@@ -17,9 +17,11 @@
     </toc-element>
     <toc-element topic="layers.md">
         <toc-element topic="execution.md">
-            <toc-element topic="motor_controller.md"/>
+            <toc-element topic="motor_controllers.md"/>
         </toc-element>
-        <toc-element topic="perception.md"/>
+        <toc-element topic="perception.md">
+            <toc-element topic="motor_feedback.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="functions.md"/>
 </instance-profile>
