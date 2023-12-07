@@ -1,5 +1,8 @@
 # Dependence
 
+ROS2 should be used in **Linux**. We have been using **Ubuntu**.
+Other distributions may also work, but we don't guarantee that.
+
 To run the ROS2 program, here are several libraries required.
 
 ## ROS2
