@@ -1,6 +1,6 @@
-# WSL (Optional)
+# WSL
 
-WSL provides a convenient way to develop on Windows.
+Windows Subsystem Linux, aka **WSL**, provides us a convenient way to develop on **Windows**.
 You do almost the same things as on Ubuntu, except for running.
 
 > Our code cannot be tested on WSL, as it requires multiple hardware resources.
