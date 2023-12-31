@@ -48,6 +48,8 @@ The ID of each motor is allocated in the following table.
 >
 {style="warning"}
 
-For more information, please refer to [DJI Motors](dji-motors.md) and [DM Motors](dm-motors.md).
+For more information, please refer to [DJI Motors](dji_motors.md) and [DM Motors](dm_motors.md).
 
 ## RS485
+
+RS485 is a serial communication protocol. \

@@ -57,4 +57,4 @@ ip link set can0 up type can bitrate 1000000 dbitrate 1000000 berr-reporting on 
 
 > For convenience, it's better to add these commands to the startup script.
 
-For more information, please refer to [CAN Bus](can-bus.md).
+For more information, please refer to [CAN Bus](can_bus.md).

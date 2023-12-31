@@ -9,7 +9,7 @@
     <toc-element topic="meta_ros.md"/>
     <toc-element topic="dependence.md">
         <toc-element topic="ros_installation.md"/>
-        <toc-element topic="can-bus.md"/>
+        <toc-element topic="can_bus.md"/>
     </toc-element>
     <toc-element topic="usage.md"/>
     <toc-element topic="development.md">
@@ -19,9 +19,10 @@
     <toc-element topic="layers.md">
         <toc-element topic="execution.md">
             <toc-element topic="motor_controllers.md">
-                <toc-element topic="dji-motors.md"/>
-                <toc-element topic="dm-motors.md"/>
+                <toc-element topic="dji_motors.md"/>
+                <toc-element topic="dm_motors.md"/>
             </toc-element>
+            <toc-element topic="unitree_motors.md"/>
         </toc-element>
         <toc-element topic="perception.md">
             <toc-element topic="motor_feedback.md"/>
