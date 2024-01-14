@@ -33,7 +33,7 @@ It is used for basic CAN operations, such as sending and receiving frames. \
 
 The ID of each motor is allocated in the following table.
 
-| Motor Type |  Type   |  ID   | Control ID | Feedback ID |
+| Motor Type |  Mode   |  ID   | Control ID | Feedback ID |
 |:----------:|:-------:|:-----:|:----------:|:-----------:|
 |  DJI 3508  |    \    | 1 ~ 4 |   0x200    | 0x200 + ID  |
 |  DJI 3508  |    \    | 5 ~ 8 |   0x1FF    | 0x200 + ID  |

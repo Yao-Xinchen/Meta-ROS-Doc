@@ -30,5 +30,5 @@
             <toc-element topic="motor_feedback.md"/>
         </toc-element>
     </toc-element>
-    <toc-element topic="functionality.md"/>
+    <toc-element topic="application.md"/>
 </instance-profile>

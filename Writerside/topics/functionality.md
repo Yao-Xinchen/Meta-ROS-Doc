@@ -1,3 +1,0 @@
-# Functionality
-
-Start typing here...
