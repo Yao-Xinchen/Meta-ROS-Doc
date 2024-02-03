@@ -15,15 +15,18 @@ It has 7 motors in total, including 4 wheels, 2 gimbal motors and 1 friction whe
 **HID**s stands for Hardware IDs, which are stored in the devices. \
 For more information, please refer to **ID Allocation** in [Motor Controllers](motor_controllers.md).
 
-| RID | HID | Brand | Type  | Mode |     Usage      |  CID  |  FID  |
-|:---:|:---:|:-----:|:-----:|:----:|:--------------:|:-----:|:-----:|
-|  1  |  1  |  DJI  | M3508 |  \   | Forward Wheel  | 0x200 | 0x201 |
-|  2  |  2  |   ~   |   ~   |  \   |   Left Wheel   |   ~   | 0x202 |
-|  3  |  3  |   ~   |   ~   |  \   | Backward Wheel |   ~   | 0x203 |
-|  4  |  4  |   ~   |   ~   |  \   |  Right Wheel   |   ~   | 0x204 |
-|  5  |  5  |   ~   |   ~   |  \   | Friction Wheel | 0x1FF | 0x305 |
-|  6  |  2  |   ~   | M6020 |  \   |   Gimbal Yaw   |   ~   | 0x206 |
-|  7  |  3  |   ~   |   ~   |  \   |  Gimbal Pitch  |   ~   | 0x207 |
+| RID | HID | Brand | Type  | Mode |        Usage        |  CID  |  FID  |
+|:---:|:---:|:-----:|:-----:|:----:|:-------------------:|:-----:|:-----:|
+|  1  |  1  |  DJI  | M3508 |  \   |    Forward Wheel    | 0x200 | 0x201 |
+|  2  |  2  |   ~   |   ~   |  \   |     Left Wheel      |   ~   | 0x202 |
+|  3  |  3  |   ~   |   ~   |  \   |   Backward Wheel    |   ~   | 0x203 |
+|  4  |  4  |   ~   |   ~   |  \   |     Right Wheel     |   ~   | 0x204 |
+|  5  |  5  |   ~   |   ~   |  \   |  Friction Wheel Up  | 0x1FF | 0x205 |
+|  6  |  6  |   ~   |   ~   |  \   | Friction Wheel Down |   ~   | 0x206 |
+|  7  |  7  |   ~   | M2006 |  \   |  Ammo Feeding Left  |   ~   | 0x207 |
+|  8  |  8  |   ~   |   ~   |  \   | Ammo Feeding Right  |   ~   | 0x208 |
+|  9  |  5  |   ~   | M6020 |  \   |     Gimbal Yaw      | 0x2FF | 0x209 |
+| 10  |  6  |   ~   |   ~   |  \   |    Gimbal Pitch     |   ~   | 0x20A |
 
 > The `~` means the same as the previous row. \
 > The `CID` and `FID` stand for **Control ID** and **Feedback ID** respectively.
