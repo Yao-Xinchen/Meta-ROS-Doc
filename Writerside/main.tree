@@ -2,8 +2,8 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="mrw"
-                 name="Meta-ROS-wiki"
+<instance-profile id="main"
+                 name="main"
                  start-page="meta_ros.md">
 
     <toc-element topic="meta_ros.md"/>
