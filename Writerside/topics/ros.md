@@ -1,4 +1,4 @@
-# ROS Installation
+# ROS2
 
 Here is an example of installing with the Debian packages.
 
@@ -6,7 +6,7 @@ The following information is from [ROS2 Ubuntu (Debian)](https://docs.ros.org/en
 
 ## System Setup
 
-beneath is the system setup.
+Beneath is the system setup.
 
 ### Set locale
 
@@ -33,6 +33,8 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 ## Install ROS2
 
+We take ROS2 Foxy as an example.
+
 ```bash
 sudo apt update
 sudo apt upgrade
@@ -44,5 +46,5 @@ sudo apt install ros-foxy-desktop
 ```bash
 # Replace ".bash" with your shell if you're not using bash
 # Possible values are: setup.bash, setup.sh, setup.zsh
-source /opt/ros/iron/setup.bash
+source /opt/ros/foxy/setup.bash
 ```

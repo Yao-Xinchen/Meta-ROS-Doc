@@ -22,4 +22,4 @@ They can be controlled by reading and writing data to the files.
 
 RS485 is a serial communication protocol.
 In our program, it is used to communicate with the Unitree motors.
-For more information, please refer to [Motor Controllers](motor_controllers.md).
+For more information, refer to [Motor Controllers](motor_controllers.md).

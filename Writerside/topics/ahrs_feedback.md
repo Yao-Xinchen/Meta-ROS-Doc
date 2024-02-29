@@ -1,3 +1,3 @@
-# Motor Feedback
+# AHRS Feedback
 
 Start typing here...

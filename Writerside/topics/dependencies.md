@@ -1,4 +1,4 @@
-# Dependence
+# Dependencies
 
 ROS2 should be used in **Linux**. We have been using **Ubuntu**.
 Other distributions may also work, but we don't guarantee that.
@@ -15,7 +15,7 @@ On ubuntu 20.04, the **recommended version** is ROS2 **Foxy**.
 This is not the latest version, but it is the most stable one on our platform.
 If you are using other versions, such as Humble, you may need to install ROS by compiling from source.
 
-Further information: [ROS-Installation](ros_installation.md)
+Further information: [ROS2](ros.md)
 
 ## Serial-Driver
 
@@ -57,4 +57,10 @@ ip link set can0 up type can bitrate 1000000 dbitrate 1000000 berr-reporting on 
 
 > For convenience, it's better to add these commands to the startup script.
 
-For more information, please refer to [CAN Bus](can_bus.md).
+For more information, refer to [CAN Bus](can_bus.md).
+
+## Moveit2
+
+Official website: [Moveit2](https://moveit.ros.org/)
+
+For more information, refer to [Moveit2](moveit.md).

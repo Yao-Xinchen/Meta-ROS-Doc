@@ -1,29 +1,37 @@
-# About Meta-ROS
+# Meta-ROS
 
 ## Basic Info
 
-Created by Yao Xinchen, 2023/7/13
+Created by Yao Xinchen, 2023/7/13. \
+Based on ROS2 Foxy. \
+Tested on Nvidia Orin Nano, Ubuntu 20.04. \
+Used for RoboMaster Team Meta to control robots.
 
-Based on ROS2 foxy
-
-Tested on Nvidia Orin Nano, Ubuntu 20.04
-
-Used for RoboMaster Team Meta to control robots
+This project is hoped to be modular and easy to maintain.
 
 ## Dependencies
 
-ROS2 foxy
+1. ros2 (ros-foxy or ros-humble)
+2. serial-driver
+3. moveit
+4. moveit-servo
+
+For more information, refer to [Dependencies](dependencies.md)
 
 ## Structure
 
 4 main layers: Perception -> Decision -> Decomposition -> Execution
 
+For more information, refer to [Layers](layers.md)
+
 ## To Compile
 
-Build with ```colcon build --cmake-args '-DCMAKE_EXPORT_COMPILE_COMMANDS=On'``` in the workspace
+First, create a workspace and clone the project.
 
-Update ROS extension with ctrl+shift+p -> ROS: Update C++ Properties -> ROS: Update Python Path
+```Bash
+mkdir Meta-ROS
+cd Meta-ROS
+git clone --recurse-submodules https://github.com/Yao-Xinchen/Meta-ROS src
+```
 
-Update clangd with ctrl+shift+p -> clangd: Restart language server
-
-If clangd is not activated, use ```cp build/compile_commands.json compile_commands.json```
+Build with ```colcon build --symlink-install --cmake-args '-DCMAKE_EXPORT_COMPILE_COMMANDS=On'``` in the workspace

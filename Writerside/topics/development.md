@@ -3,17 +3,20 @@
 To develop this project, you need to be capable of multiple skills.
 This includes several languages, basic usage of Linux, and familiarity with ROS2.
 
-For more information, please refer to [Prerequisites](prerequisites.md).
+For more information, refer to [Prerequisites](prerequisites.md).
 
 ## System
 
 This project is mainly developed on **Ubuntu**.
 To develop, you need to use a computer with Ubuntu, such as Orin Nano.
 
-Alternatively, you can use a virtual machine on Windows, such as **WSL**.
+### Virtual Machine
+
+You can use a virtual machine on Windows, such as **WSL**.
+On Mac, you can use **Multipass**.
 After editing, you can copy the code to Orin Nano and run it there.
 
-For more information, please refer to [WSL](wsl.md).
+For more information, refer to [WSL](wsl.md) and [Multipass](multipass.md).
 
 ## Editor
 
