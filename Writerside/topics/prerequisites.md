@@ -38,3 +38,12 @@ such as dependencies, executables, install targets, etc.
 
 Python is not used as the main language in this project.
 However, it is used in some scripts, such as `setup.py` and `launch.py`.
+
+## ROS2
+
+ROS2 is the main framework of this project.
+You need to be familiar with ROS2 basics, such as nodes, topics, config, launch, etc.
+
+To learn ROS2, you can visit the official website: [ROS](https://www.ros.org/)
+
+Official tutorials: [ROS2 Tutorials](https://docs.ros.org/en/humble/Installation.html)
