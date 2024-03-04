@@ -16,18 +16,22 @@ git clone --recurse-submodules https://github.com/Yao-Xinchen/Meta-ROS src
 To use this project, you need to build it first.
 `colcon` is the compilation tool we are using ROS2.
 
-The first time to build the project, run the following command in the workspace:
+The first time to build the project, you can run the script `first_build.bash` or `first_build.zsh` with:
 
-```Bash
-touch src/perception/ahrs_feedback/fdilink_ahrs/AMENT_IGNORE
-colcon build --symlink-install --cmake-args '-DCMAKE_EXPORT_COMPILE_COMMANDS=On'
-source install/setup.bash
-rm src/perception/ahrs_feedback/fdilink_ahrs/AMENT_IGNORE
-colcon build --symlink-install --cmake-args '-DCMAKE_EXPORT_COMPILE_COMMANDS=On'
+```Shell
+# For bash
+bash src/first_build.bash
+# For zsh
+zsh src/first_build.zsh
 ```
 
-The `touch` and `rm` commands are used to ignore the `fdilink_ahrs` package.
-This can avoid dependency problems when building the project.
+or run the following commands:
+
+```Bash
+colcon build --symlink-install --packages-select serial
+source ./install/setup.bash
+colcon build --symlink-install --cmake-args '-DCMAKE_EXPORT_COMPILE_COMMANDS=On'
+```
 
 Later, you can just run the following command to build the project:
 ```Bash
@@ -45,6 +49,10 @@ This would generate `build`, `install`, and `log` folders in the workspace.
 ├── log
 └── src
 ```
+
+`--packages-select serial` is used to only build the `serial` package.
+This is because the `serial` package is a dependency of the `fdilink_ahrs` package.
+It needs to be sourced before building the `fdilink_ahrs` package.
 
 `--symlink-install` is used to create symbolic links to the files in the `install` folder.
 This can avoid copying files and save the trouble of recompiling when you modify the config files in source code.

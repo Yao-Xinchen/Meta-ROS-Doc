@@ -10,7 +10,7 @@ You need to master C++ basics to develop this project, including classes, templa
 
 C++ is also used in our embedded code: [Meta-Embedded](https://github.com/Meta-Team/Meta-Embedded)
 
-#### learning resources
+#### Learning resources
 
 There's a recommended tutorial on Bilibili:
 [CPP Tutorial](https://www.bilibili.com/video/BV1et411b73Z)
@@ -37,7 +37,7 @@ such as dependencies, executables, install targets, etc.
 ### Python
 
 Python is not used as the main language in this project.
-However, it is used in some scripts, such as `setup.py` and `launch.py`.
+However, it is used in some scripts, such as `launch.py`.
 
 ## ROS2
 
