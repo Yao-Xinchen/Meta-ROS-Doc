@@ -3,11 +3,6 @@
 Windows Subsystem Linux, aka **WSL**, provides us a convenient way to develop on **Windows**.
 You do almost the same things as on Ubuntu, except for running.
 
-> Our code cannot be tested on WSL, as it requires multiple hardware resources.
-> Use WSL only for things like editing and compiling.
->
-{style="warning"}
-
 ## Installation
 
 To install WSL, visit [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).

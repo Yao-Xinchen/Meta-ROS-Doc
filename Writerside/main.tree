@@ -11,6 +11,7 @@
         <toc-element topic="ros.md"/>
         <toc-element topic="can_bus.md"/>
         <toc-element topic="serial_ports.md">
+            <toc-element topic="serial_driver.md"/>
         </toc-element>
         <toc-element topic="moveit.md"/>
     </toc-element>
@@ -28,6 +29,7 @@
                 <toc-element topic="unitree_motors.md"/>
             </toc-element>
             <toc-element topic="capacitor_controller.md"/>
+            <toc-element topic="serial_output.md"/>
         </toc-element>
         <toc-element topic="decomposition.md">
             <toc-element topic="scara_moveit.md"/>

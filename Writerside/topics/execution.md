@@ -50,4 +50,10 @@ Params:
 4. int[] `motor.brands`: The brand of each motor.
 5. int[] `motor.types`: The type of each motor.
 
+## Serial Output
+
+This package can be used to output serial data to embedded systems.
+
+
+
 ## Capacitor

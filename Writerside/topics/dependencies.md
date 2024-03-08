@@ -17,21 +17,21 @@ If you are using other versions, such as Humble, you may need to install ROS by 
 
 Further information: [ROS2](ros.md)
 
-## Serial-Driver
+## Serial Ports
 
-GitHub website: [Serial Driver](https://github.com/ros-drivers/transport_drivers/tree/humble)
+We are using the **serial** ports to communicate with motor_controllers, referee system and other devices.
 
-ROS index: [Serial Driver](https://index.ros.org/p/serial_driver/#humble)
+For more information, refer to [Serial Ports](serial_ports.md).
+
+### Serial Driver
+
+**Serial driver** is a package that provides a serial port driver for ROS2.
 
 To install the serial driver, run the following command:
 
 ```bash
 sudo apt install ros-<distro>-serial-driver
 ```
-
-This is a serial driver for ROS2. This is required to communicate with the serial port.
-
-> This only need to be executed once.
 
 ## CAN bus
 
