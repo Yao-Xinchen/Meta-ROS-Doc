@@ -41,6 +41,7 @@
         </toc-element>
         <toc-element topic="decision.md"/>
     </toc-element>
+    <toc-element topic="interfaces.md"/>
     <toc-element topic="application.md">
         <toc-element topic="sentry.md">
         </toc-element>
