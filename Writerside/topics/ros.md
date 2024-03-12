@@ -2,7 +2,7 @@
 
 Here is an example of installing with the Debian packages.
 
-The following information is from [ROS2 Ubuntu (Debian)](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html).
+The following information is from [ROS2 Ubuntu (Debian)](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html).
 
 ## System Setup
 
@@ -33,12 +33,12 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 ## Install ROS2
 
-We take ROS2 Foxy as an example.
+We take ROS2 Humble as an example.
 
 ```bash
 sudo apt update
 sudo apt upgrade
-sudo apt install ros-foxy-desktop
+sudo apt install ros-humble-desktop
 ```
 
 ## Setup
@@ -46,5 +46,5 @@ sudo apt install ros-foxy-desktop
 ```bash
 # Replace ".bash" with your shell if you're not using bash
 # Possible values are: setup.bash, setup.sh, setup.zsh
-source /opt/ros/foxy/setup.bash
+source /opt/ros/humble/setup.bash
 ```

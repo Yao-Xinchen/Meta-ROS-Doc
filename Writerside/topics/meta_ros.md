@@ -3,7 +3,7 @@
 ## Basic Info
 
 Created by Yao Xinchen, 2023/7/13. \
-Based on ROS2 Foxy. \
+Based on ROS2 Humble. \
 Tested on Nvidia Orin Nano, Ubuntu 20.04. \
 Used for RoboMaster Team Meta to control robots.
 
@@ -11,7 +11,7 @@ This project is hoped to be modular, readable and easy to maintain.
 
 ## Dependencies
 
-1. ros2 (ros-foxy or ros-humble)
+1. ros-humble
 2. serial-driver
 3. moveit
 4. moveit-servo

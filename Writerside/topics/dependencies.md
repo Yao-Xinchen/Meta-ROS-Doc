@@ -11,7 +11,7 @@ Official website: [ROS2](https://docs.ros.org/en/humble/Installation/Ubuntu-Inst
 
 ROS2 is the main platform we are using.
 
-On ubuntu 20.04, the **recommended version** is ROS2 **Foxy**.
+On ubuntu 20.04, the **recommended version** is ROS2 **Humble**.
 This is not the latest version, but it is the most stable one on our platform.
 If you are using other versions, such as Humble, you may need to install ROS by compiling from source.
 
@@ -30,10 +30,35 @@ For more information, refer to [Serial Ports](serial_ports.md).
 To install the serial driver, run the following command:
 
 ```bash
-sudo apt install ros-<distro>-serial-driver
+sudo apt install ros-humble-serial-driver
 ```
 
-## CAN bus
+## Moveit2
+
+Official website: [Moveit2](https://moveit.ros.org/)
+
+```Bash
+sudo apt install ros-humble-moveit
+sudo apt install ros-humble-moveit-servo
+```
+
+For more information, refer to [Moveit2](moveit.md).
+
+## Vision
+
+There are several packages related to vision.
+
+### Camera Info Manager
+
+```Bash
+sudo apt install ros-humble-camera-info-manager
+```
+
+> If it still cannot be found during the compilation,
+> add `find_package(camera_info_manager REQUIRED)` to the `rm_vision_ros2_mindvision_camera/CMakeLists.txt`.
+>
+
+## CAN Bus
 
 Nvidia archive: [CAN](https://docs.nvidia.com/jetson/archives/r35.3.1/DeveloperGuide/text/HR/ControllerAreaNetworkCan.html)
 
@@ -58,9 +83,3 @@ ip link set can0 up type can bitrate 1000000 dbitrate 1000000 berr-reporting on 
 > For convenience, it's better to add these commands to the startup script.
 
 For more information, refer to [CAN Bus](can_bus.md).
-
-## Moveit2
-
-Official website: [Moveit2](https://moveit.ros.org/)
-
-For more information, refer to [Moveit2](moveit.md).

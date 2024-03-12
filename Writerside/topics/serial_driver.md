@@ -15,7 +15,7 @@ to communicate with our embedded system [Meta-Embedded](https://github.com/Meta-
 To install the serial driver, run the following command:
 
 ```bash
-sudo apt install ros-<distro>-serial-driver
+sudo apt install ros-humble-serial-driver
 ```
 
 ## Usage

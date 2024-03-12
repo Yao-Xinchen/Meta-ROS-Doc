@@ -13,7 +13,7 @@ For more information, refer to [ROS2](ros.md).
 After installing ROS2, you can install **Moveit2** with the following command:
 
 ```bash
-sudo apt install ros-<distro>-moveit
+sudo apt install ros-humble-moveit
 ```
 
 This would install the main package of **Moveit2**.
@@ -25,7 +25,7 @@ This would install the main package of **Moveit2**.
 To install **Moveit Servo**, run the following command:
 
 ```bash
-sudo apt install ros-<distro>-moveit-servo
+sudo apt install ros-humble-moveit-servo
 ```
 
 ## Usage
