@@ -18,6 +18,29 @@ A list of the motors we are using is shown below.
 >
 {style="note"}
 
+### Interface
+
+#### In
+
+`motor_goal` defined in `motoro_interface/msg/MotorGoal.msg`
+
+```
+string[] motor_id
+float32[] goal_vel # rad/s
+float32[] goal_pos # rad
+```
+
+#### Out
+
+`motor_state` defined in `motoro_interface/msg/MotorState.msg`
+
+```
+string[] motor_id
+float32[] present_tor
+float32[] present_vel # rad/s
+float32[] present_pos # rad
+```
+
 ## CAN Bus
 
 All motors, except for GO M8010, use CAN bus to communicate with the computer.

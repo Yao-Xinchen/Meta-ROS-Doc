@@ -18,27 +18,6 @@ For more information, refer to [Motor Controllers](motor_controllers.md).
 All three controllers share the same interfaces. \
 They are defined in the package `motor_interface`.
 
-#### Controlling
-
-Defined in `motoro_interface/msg/MotorGoal.msg`
-
-```
-string[] motor_id
-float32[] goal_vel # rad/s
-float32[] goal_pos # rad
-```
-
-#### Feedback
-
-Defined in `motoro_interface/msg/MotorState.msg`
-
-```
-string[] motor_id
-float32[] present_tor
-float32[] present_vel # rad/s
-float32[] present_pos # rad
-```
-
 ### Configuration
 
 Configuration for motors are written in yaml config files.

@@ -35,8 +35,15 @@
             <toc-element topic="scara_moveit.md"/>
         </toc-element>
         <toc-element topic="perception.md">
-            <toc-element topic="ahrs_feedback.md"/>
+            <toc-element topic="ahrs_feedback.md">
+            </toc-element>
+            <toc-element topic="meta_vision.md"/>
         </toc-element>
+        <toc-element topic="decision.md"/>
     </toc-element>
-    <toc-element topic="application.md"/>
+    <toc-element topic="application.md">
+        <toc-element topic="sentry.md">
+        </toc-element>
+        <toc-element topic="engineer.md"/>
+    </toc-element>
 </instance-profile>
