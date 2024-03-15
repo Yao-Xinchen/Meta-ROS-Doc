@@ -14,6 +14,7 @@
             <toc-element topic="serial_driver.md"/>
         </toc-element>
         <toc-element topic="moveit.md"/>
+        <toc-element topic="ahrs_setup.md"/>
     </toc-element>
     <toc-element topic="usage.md"/>
     <toc-element topic="development.md">
