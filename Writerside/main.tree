@@ -13,8 +13,8 @@
         <toc-element topic="serial_ports.md">
             <toc-element topic="serial_driver.md"/>
         </toc-element>
-        <toc-element topic="moveit.md"/>
         <toc-element topic="ahrs_setup.md"/>
+        <toc-element topic="moveit.md"/>
     </toc-element>
     <toc-element topic="usage.md"/>
     <toc-element topic="development.md">
@@ -48,4 +48,5 @@
         </toc-element>
         <toc-element topic="engineer.md"/>
     </toc-element>
+    <toc-element topic="appendix.md"/>
 </instance-profile>

@@ -5,6 +5,8 @@ It is built on top of the Robot Operating System (ROS) and is intended to be use
 
 In this project, it is used to control the robot arm of the robot **Enigneer**.
 
+For more information, refer to [Moveit2](https://moveit.ros.org/).
+
 ## Installation
 
 To install **Moveit2**, you need to install ROS2 first.
