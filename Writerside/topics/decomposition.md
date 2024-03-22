@@ -1,7 +1,8 @@
 # Decomposition
 
-The **decomposition** layer is the second-lowest layer in the architecture. \
-It is responsible for decomposing the high-level tasks into low-level tasks. \
+The **decomposition** layer is responsible for decomposing the high-level tasks into low-level tasks. \
+Each package is related to a specific mechanical structure on the robots.
+
 High-level tasks are sent by packages in **decision** layer.
 Low-level tasks are sent to the **execution** layer.
 

@@ -1,7 +1,7 @@
 # Execution
 
 The **execution** layer is the lowest layer in the architecture. \
-It is responsible for controlling the hardware.
+It is responsible for directly controlling the hardware.
 
 ## Motor
 

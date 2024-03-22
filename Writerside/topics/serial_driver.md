@@ -2,13 +2,9 @@
 
 **Serial driver** is a package that provides a serial port driver for ROS2.
 
-It is used in the **remote_control** package to communicate with the **referee system**. \
+It is used in the **referee_serial** package to communicate with the **referee system**. \
 It is also used by [Meta-Vision-SolaisNG](https://github.com/Meta-Team/Meta-Vision-SolaisNG)
 to communicate with our embedded system [Meta-Embedded](https://github.com/Meta-Team/Meta-Embedded).
-
-> This has not been fully tested yet, by Mar 8th, 2024.
-> 
-{style="warning"}
 
 ## Installation
 

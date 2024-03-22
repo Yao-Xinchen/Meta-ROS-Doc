@@ -2,12 +2,16 @@
 
 ## Basic Info
 
+[Meta-ROS](https://github.com/Yao-Xinchen/Meta-ROS)
+
 Created by Yao Xinchen, 2023/7/13. \
 Based on ROS2 Humble. \
 Tested on Nvidia Orin Nano, Ubuntu 20.04. \
 Used for RoboMaster Team Meta to control robots.
 
 This project is hoped to be modular, readable and easy to maintain.
+
+This doc can be found at [Meta-ROS-Doc](https://github.com/Yao-Xinchen/Meta-ROS-Doc)
 
 ## Dependencies
 
