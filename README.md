@@ -7,6 +7,9 @@ Created by Yao Xinchen, 2023/11/18
 This is a wiki for [Meta-ROS](https://github.com/Yao-Xinchen/Meta-ROS) project,
 a robot controlling program used by Team Meta in RoboMaster.
 
+> This project is still under development.
+> 
+
 ## To View
 
 This doc has been published to [Meta-ROS-Doc](https://yao-xinchen.github.io/Meta-ROS-Doc/meta-ros.html)
