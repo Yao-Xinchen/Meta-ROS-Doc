@@ -30,6 +30,22 @@ To install **Moveit Servo**, run the following command:
 sudo apt install ros-humble-moveit-servo
 ```
 
+### Controller Manager
+
+To install, run the following command:
+
+```bash
+sudo apt install ros-humble-controller-manager
+```
+
+### Visual Tools
+
+To install, run the following command:
+
+```bash
+sudo apt install ros-humble-moveit-visual-tools
+```
+
 ## Usage
 
 Moveit2 is used in **scara_moveit2** package.
